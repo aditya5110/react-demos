@@ -5,10 +5,8 @@ export default function ShoppingList({items}) {
         <ul>
             {items.map((i) => (
                 <ShoppingListItems 
-                    id={i.id} 
-                    item={i.item} 
-                    qty={i.qty} 
-                    completed={i.completed}    
+                    key={i.id} 
+                    {...i}
                 />
             ))}
         </ul>    
