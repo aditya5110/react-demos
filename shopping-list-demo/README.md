@@ -11,14 +11,20 @@ Currently, two official plugins are available:
 How to create a vite react repo?
 
 Run the following commands :-
--> npm create vite@latest
+```
+npm create vite@latest
+```
 enter the name of the repo, select react and then select Javascript
 
--> cd <repo-name>
--> npm install
+```
+cd <repo-name>
+npm install
+```
 used to install all the required dependencies
 
--> npm run dev
+```
+npm run dev
+```
 finalises everything and runs the app on localhost. Open the link in the output
 
 
