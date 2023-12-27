@@ -18,8 +18,6 @@ enter the name of the repo, select react and then select Javascript
 
 ```
 cd <repo-name>
-```
-```
 npm install
 ```
 used to install all the required dependencies
